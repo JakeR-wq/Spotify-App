@@ -1,0 +1,103 @@
+/* General container styles */
+.app-container {
+  text-align: center;
+  padding: 50px;
+  background-color: #4B4237;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header styling */
+.app-header {
+  margin-bottom: 30px;
+}
+
+.app-title {
+  font-size: 3rem;
+  color: #A49694;
+  margin: 0;
+}
+
+.app-tagline {
+  font-size: 1.5rem;
+  color: #EDE7D9;
+  margin: 10px 0;
+}
+
+/* Button container */
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+
+/* Button styling */
+.auth-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Login button specific styling */
+.login-button {
+  background-color: #D5A021;
+  color: black;
+}
+
+.login-button:hover {
+  background-color: #F3B523;
+}
+
+/* Register button specific styling */
+.register-button {
+  background-color: #736B60;
+  color: white;
+}
+
+.register-button:hover {
+  background-color: #736B73;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Label styling */
+.form-label {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Input field styling */
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Button styling */
+.form-button {
+  background-color: #1db954;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #17a645;
+}
